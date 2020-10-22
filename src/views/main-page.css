@@ -1,0 +1,22 @@
+.main-page-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'header'
+    'body'
+    'footer';
+}
+.main-page-header {
+    grid-area: header;
+    background-color: cadetblue;
+}
+.main-page-body {
+    grid-area: body;
+    background-color: rebeccapurple;
+}
+.main-page-footer {
+    grid-area: footer;
+    background-color: cadetblue;
+}
