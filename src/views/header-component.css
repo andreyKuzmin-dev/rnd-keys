@@ -1,0 +1,116 @@
+.header-component-container {
+    
+}
+
+.header_background-container {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: #090808;
+}
+
+.header_background {
+    position: absolute;
+    width: 100%;
+}
+
+.background-border {
+    top: 80px;
+    height: 2px;
+    background-color: #151515;
+}
+
+.header_layout {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.header_content-container {
+    position: absolute;
+    top: 14px;
+    width: 1200px;
+    height: 48px;
+    display: flex;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 208px;
+    height: 46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #BFAB64;
+}
+
+.header_menu {
+    margin-left: 96px;
+    display: flex;
+    width: 360px;
+    height: 46px;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 46px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header_user-info {
+    margin-left: 148px;
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+    height: 48px;
+}
+
+.user-avatar-border {
+    position: absolute;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #151515;
+    box-sizing: border-box;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.header_distribution-start {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 183px;
+    height: 48px;
+    border: 2px solid #222223;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.distribution-start {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BFAB64;
+}

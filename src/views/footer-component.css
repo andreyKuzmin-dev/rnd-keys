@@ -1,0 +1,31 @@
+.footer-component-container {
+    background-color: #090808;
+}
+
+.footer-info {
+    height: 19px;
+    width: 1200px;
+    padding-top: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #838383;
+}
+
+.footer-header-component-container {
+    position: relative;
+    padding-top: 60px;
+    box-sizing: border-box;
+    height: 180px;
+}
+
+.footer-info-container {
+    position: relative;
+    height: 160px;
+}

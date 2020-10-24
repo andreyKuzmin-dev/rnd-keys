@@ -1,0 +1,8 @@
+.rotate3d-main {
+    transform-style: preserve-3d;
+    perspective: 3000px;-webkit-perspective: 3000px; perspective-origin: 50% 50%; -webkit-perspective-origin: 50% 50%;
+}
+
+.rotate3d-perspectivable-item {
+    perspective: 4000px;-webkit-perspective: 4000px; perspective-origin: 50% 50%; -webkit-perspective-origin: 50% 50%;
+}
